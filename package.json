@@ -1,9 +1,11 @@
 {
-  "name": "ng2-jalali-date-picker",
+  "name": "@techtourist/ng2-jalali-date-picker",
   "author": "Mojtaba Zarei",
-  "version": "2.4.3",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
+  "description": "This is a configurable jalali date-picker build for Angular and is based and forked from [fingerpich](https://github.com/fingerpich/jalali-angular-datepicker)",
+  "types": "./index.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
@@ -21,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fingerpich/angular-datepicker.git"
+    "url": "git+https://github.com/MustafaTechtourist/jalali-angular-datepicker.git"
   },
   "private": false,
   "keywords": [
@@ -38,6 +40,9 @@
     "ts",
     "farsi"
   ],
+  "engines": {
+    "node": "^14.14.0"
+  },
   "dependencies": {
     "jalali-moment": "^3.3.10"
   },

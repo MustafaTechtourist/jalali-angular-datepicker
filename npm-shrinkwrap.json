@@ -1,6 +1,6 @@
 {
-  "name": "ng2-jalali-date-picker",
-  "version": "2.4.3",
+  "name": "@techtourist/ng2-jalali-date-picker",
+  "version": "0.0.1",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
